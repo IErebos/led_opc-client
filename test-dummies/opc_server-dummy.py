@@ -6,7 +6,7 @@ server = Server()
 server_url = "opc.tcp://0.0.0.0:4840"
 server.set_endpoint(server_url)
 
-name = "Dummy OPC Server #1"
+name = "Dummy OPC Server"
 namespace = server.register_namespace(name)
 
 node = server.get_objects_node()
